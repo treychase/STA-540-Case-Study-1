@@ -1,7 +1,7 @@
 ---
 title: "HIV Self-Testing Study Replication"
 author: "Trey Chase"
-date: today
+date: 1/28/2026
 format:
   html:
     toc: true
@@ -1077,19 +1077,6 @@ table_comprehensive <- data_analysis %>%
 table_comprehensive
 ```
 
-### Key Findings
-
-Significant differences (p < 0.05):
-
-- **Number of partners**: Those who ordered kits had slightly higher number of partners (p = `r round(partners_test$p.value, 3)`)
-- **Ever tested for HIV**: Those who had been previously tested were more likely to order kits (p = `r round(tested_test$p.value, 3)`)
-
-No significant differences found for:
-
-- Age (p = `r round(age_test$p.value, 3)`)
-- Ethnicity (p = `r round(ethnicity_test$p.value, 3)`)
-- Condom use (p = `r round(condom_test$p.value, 3)`)
-- Condomless receptive anal sex (p = `r round(cras_test$p.value, 3)`)
 
 
 
@@ -1100,4 +1087,8 @@ No significant differences found for:
 2. ClinicalTrials.gov Identifier: NCT04155502. https://clinicaltrials.gov/ct2/show/NCT04155502
 
 3. National Institute on Drug Abuse (NIDA) Clinical Trials Network (CTN) Protocol 0083. https://nida.nih.gov/research-topics/clinical-trials-network
+
+4. Lenth, R. V. (n.d.). Comparisons and contrasts in emmeans. The Comprehensive R Archive Network. Retrieved from https://cran.r-project.org/web/packages/emmeans/vignettes/comparisons.html
+
+
 
