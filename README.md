@@ -40,6 +40,5 @@ Test kit order rates are the primary measurement of effectiveness of each platfo
 ![F8CFA9FA-8666-43C9-8F85-EDB38B350DE7](https://github.com/user-attachments/assets/9ff30011-c66d-4ed6-8750-820ec6210f05)
 ![6C328AA3-181B-4CAA-B6A4-253F8561A277](https://github.com/user-attachments/assets/e86d2fdb-0d3d-4ebe-9b51-050d97082156)
 ![5C51188F-9616-4726-BA0B-23B255FD419D](https://github.com/user-attachments/assets/1e32063a-81bc-4585-95d0-e3a4ec401021)
-![B1EB8CD3-4BD0-49E8-A675-2D19E5E9F27A](https://github.com/user-attachments/assets/cfecbfaf-8dff-464e-b816-6894d85f5ad3)
 
 
