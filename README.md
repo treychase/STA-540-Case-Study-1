@@ -41,4 +41,17 @@ Test kit order rates are the primary measurement of effectiveness of each platfo
 ![6C328AA3-181B-4CAA-B6A4-253F8561A277](https://github.com/user-attachments/assets/e86d2fdb-0d3d-4ebe-9b51-050d97082156)
 ![5C51188F-9616-4726-BA0B-23B255FD419D](https://github.com/user-attachments/assets/1e32063a-81bc-4585-95d0-e3a4ec401021)
 
+# Reflection
+
+Replicating Table 1 from the original study was a fairly straightforward process. Some results matched exactly, while others differed by ±5 observations, which is expected given that the provided dataset contained more observations than the original study. There was an issue identifying multiracial observations, which I addressed by implementing string detection during preprocessing to flag comma-separated or multi-digit entries (e.g., “24,25”, “24, 25”, or “2425”). The secondary analyses showed more discrepancies; for example, one row contained only two observations in Wave 1, which is inconsistent with the original data. With more time, these issues could be resolved through closer review of the data and dictionary. Despite this, many secondary findings aligned with the original results. Notably, significant differences in test kit ordering were driven by HIV-related stigma rather than substance use, medical mistrust, or risk behaviors, which were similar across groups. Overall, the main conclusions of the original study are reproducible and supported by the secondary analysis.
+
+# References
+
+1. Stafylis, C., Vavala, G., Wang, Q., McLeman, B., Lemley, S. M., Young, S. D., Xie, H., Matthews, A. G., Oden, N., Revoredo, L., Shmueli-Blumberg, D., Hichborn, E. G., McKelle, E., Moran, L. M., Jacobs, P., Marsch, L. A., & Klausner, J. D. (2022). Relative Effectiveness of Social Media, Dating Apps, and Information Search Sites in Promoting HIV Self-testing: Observational Cohort Study. *JMIR Formative Research*, 6(9), e35648. https://doi.org/10.2196/35648
+
+2. ClinicalTrials.gov Identifier: NCT04155502. https://clinicaltrials.gov/ct2/show/NCT04155502
+
+3. National Institute on Drug Abuse (NIDA) Clinical Trials Network (CTN) Protocol 0083. https://nida.nih.gov/research-topics/clinical-trials-network
+
+4. Lenth, R. V. (n.d.). Comparisons and contrasts in emmeans. The Comprehensive R Archive Network. Retrieved from https://cran.r-project.org/web/packages/emmeans/vignettes/comparisons.html
 
